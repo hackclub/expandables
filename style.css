@@ -2,6 +2,7 @@
 
 body {
   font-size: var(--font-3);
+  box-sizing: border-box;
 }
 
 header {
@@ -58,4 +59,36 @@ header > p, header > p > a{
 
 .title {
   margin-bottom: var(--spacing-4);
+}
+
+div.nutshell-bubble-overflow-section > div > h1:nth-child(1) {
+  display: none;
+}
+
+div.nutshell-bubble-overflow-section > div > h1:nth-child(2) {
+  display: none;
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 20px;
+  margin-inline-end: 40px;
+}
+
+.nutshell-heading-embed {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  :root {
+    --header-font: 10vw!important;
+    --footer-font: 15vw!important;
+  }
+}
+
+:root {
+  --header-font: 2.2em;
+  --footer-font: 4em;
 }
