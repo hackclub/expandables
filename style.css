@@ -92,3 +92,11 @@ blockquote {
   --header-font: 2.2em;
   --footer-font: 4em;
 }
+
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  margin-top: 30px;
+}
